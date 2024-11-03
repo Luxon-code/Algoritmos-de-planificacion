@@ -41,7 +41,7 @@ def SJN(n, arrival_time, burst_time):
 
 # Ejemplo de uso del algoritmo SJN (Shortest Job Next)
 print("algoritmo SJN (Shortest Job Next)".upper())
-n = 3
-arrival_time = [0, 1, 2]
-burst_time = [10, 5, 8]
+n = 4
+arrival_time = [0, 4, 10, 12]   # Tiempos de llegada espaciados
+burst_time = [15, 5, 8, 12]     # Tiempos de ejecución largos
 SJN(n, arrival_time, burst_time)
